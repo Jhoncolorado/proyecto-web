@@ -1,4 +1,4 @@
-        /* DO NOT TOUCH -------->*/
+
 
         body {
           font-family: Arial, sans-serif;
@@ -7,7 +7,7 @@
           background-color: #1293D4;
       }
       
-      /* INICIO HEADER: */
+      
       header {
           display: flex;
           background-color: #333;
@@ -52,10 +52,9 @@
       .inicio{
           color: #1293D4;
       }
-      /* FIN HEADER */
+    
       
       
-      /* INICIO SUBSCRIBETE */
       .subscribe{
           margin-top: -5px;
           background-color: #333;
@@ -83,10 +82,10 @@
           padding: 8px;
           padding-right: 80px;
       }
-      /* FIN SUBSCRIBETE */
       
       
-      /* FOOTER */
+      
+      
       footer {
           text-align: center;
           line-height: 80px;
@@ -94,12 +93,7 @@
           width: 100vw;
           color: #fff;
       }
-      /* FIN FOOTER */
-      
-              /* DO NOT TOUCH <--------*/
-      
-      
-      /* INDEX.INICIO IMAGEN CABECERA CON TEXTO */
+     
       .imagen-cabecera-contenedor {
           position: relative;
           width: 100vw;
@@ -111,10 +105,10 @@
       }
       
       .texto-imagen{
-          position: absolute; /* Permite la colocación precisa dentro del contenedor */
-          top: 50%; /* Posiciona el borde superior al 50% del contenedor */
-          left: 50%; /* Posiciona el borde izquierdo al 50% del contenedor */
-          transform: translate(-50%, -50%); /* Mueve el elemento hacia atrás en un 50% de su ancho y alto */
+          position: absolute; 
+          top: 50%;
+          left: 50%; 
+          transform: translate(-50%, -50%); 
           text-align: center;
       }
       .texto-imagen h1{
@@ -126,10 +120,10 @@
           color: #fff;
           margin-top: 30px;
       }
-      /* INDEX.FIN IMAGEN CABECERA CON TEXTO */
       
       
-      /* INDEX.INICIO IMAGENES TRILOGIA */
+      
+    
       .trilogy{
           display: flex;
           flex-direction: row;
@@ -160,11 +154,10 @@
       .diseño-grafico{
           margin-left: -25px;
       }
-      /* INDEX.FIN IMAGENES TRILOGIA */
       
       
       
-      /* NOSOTROS.INICIO SUBSCRIBE */
+      
       .subscribe-NOSOTROS{
           margin-top: 0px;
           background-color: #333;
@@ -175,19 +168,19 @@
           align-items: center;
           width: 100vw;
       }
-      /* NOSOTROS.FIN SUBSCRIBE */
       
       
-      /* NOSOTROS.INICIO CONTENIDO PPAL */
       
-      /* div padre: */
+      
+      
+      
       .nosotros-content-padre{
       display: flex;
       flex-direction: row;
       width: 100vw;
       }
       
-      /* div 1 dentro del principal: */
+      
       .div-1{
           width: 65vw;
           padding: 20px 80px 60px 150px;
@@ -320,8 +313,6 @@
           background-color: #0a7bbd;
       }
       
-      
-      /* imagen mapa:  */
       .mapa-container{
           padding-top: 20px;
       }
@@ -329,12 +320,6 @@
           width: 80%;
           padding-bottom: 200px;
       }
-      
-      
-      
-      /* CAMBIANDO EL COLOR DE LOS BOTONES HEADER */
-      
-      /* SERVICIOS:  */
       .inicio-servicios{
           color: #fff;
       }
@@ -347,8 +332,6 @@
       .contacto-servicios{
           color: #fff;
       }
-      
-      /* NOSOTROS:  */
       .inicio-nosotros{
           color: #fff;
       }
@@ -362,7 +345,6 @@
           color: #fff;
       }
       
-      /* CONTACTO:  */
       .inicio-contacto{
           color: #fff;
       }
